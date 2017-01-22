@@ -5,5 +5,6 @@
 
 5 places. Think numbers. 
 
+Enter all answers at savethedate.foo.
 
 You must know where you've been to get where you're going.
