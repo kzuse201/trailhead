@@ -19,7 +19,7 @@ export default class MapMaker {
     addMarker = (options) => {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(data.lat, data.lng),
-            map: map,
+            map: this.map,
             title: data.name
         });
 
