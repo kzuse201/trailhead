@@ -9,14 +9,15 @@ export default class MapMaker {
 
         this.markers = [{
             lat: -28.092472,
-            lng: -52.419667
+            lng: -52.419667,
+            name: "Cool Google puzzle, for very smart people"
         }];
 
         this.setupTarget(savethedate);
         window.open(this.secret);
     }
 
-    addMarker = (options) => {
+    addMarker = (data) => {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(data.lat, data.lng),
             map: map,
