@@ -8,3 +8,5 @@
 Enter all answers at savethedate.foo.
 
 You must know where you've been to get where you're going.
+
+If you have an ad blocker, disable it and reload savethedate.foo.
